@@ -1,5 +1,5 @@
 # KDE plasma widget: datetime
-![alt](preview.jpg)
+![alt](preview.png)
 
 ## Reference 
 https://develop.kde.org/docs/extend/plasma/widget/  
