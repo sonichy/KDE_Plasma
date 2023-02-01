@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "sonichy@163.com",
+                "Name": "sonichy"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "CPU usage, memory, download speed, upload speed",
+        "Description[zh_CN]": "CPU，内存，下载速度，上传速度",
+        "Icon": "CMDU",
+        "Id": "org.hty.CMDU",
+        "License": "GPL-2.0+",
+        "Name": "CMDU",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/sonichy/CMDU_plasma"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

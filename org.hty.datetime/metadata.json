@@ -1,0 +1,25 @@
+{
+    "KPlugin": {
+	    "Id": "org.hty.datetime",
+        "Authors": [
+            {
+                "Email": "sonichy@163.com",
+                "Name": "sonichy"
+            }
+        ],
+        "Icon": "preferences-system-time",
+        "Category": "Date and Time",
+        "Name": "HTY Calendar",
+        "Name[zh_CN]": "海天鹰日期时间",
+        "Description": "Hai Tian Ying datetime",
+        "Description[zh_CN]": "显示时间，日期，日历",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/sonichy/datetime_plasma",
+        "License": "GPL-2.0+"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
