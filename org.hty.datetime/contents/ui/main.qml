@@ -13,8 +13,8 @@ Item {
     width: PlasmaCore.Units.gridUnit * 10
     height: PlasmaCore.Units.gridUnit * 4
  
-    Plasmoid.toolTipMainText: Qt.formatTime(currentDateTime, "hh:mm")
-    Plasmoid.toolTipSubText: Qt.formatDate(currentDateTime, Qt.locale().dateFormat(Locale.LongFormat))
+    Plasmoid.toolTipMainText: plasmoid.configuration.toolTipMain	//Qt.formatTime(currentDateTime, "hh:mm")
+    Plasmoid.toolTipSubText: plasmoid.configuration.toolTipSub	//Qt.formatDate(currentDateTime, Qt.locale().dateFormat(Locale.LongFormat))
  
     PlasmaCore.DataSource {
         id: dataSource
