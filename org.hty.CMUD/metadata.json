@@ -7,12 +7,12 @@
             }
         ],
         "Category": "System Information",
-        "Description": "CPU usage, memory, download speed, upload speed",
-        "Description[zh_CN]": "CPU，内存，下载速度，上传速度",
-        "Icon": "CMDU",
-        "Id": "org.hty.CMDU",
+        "Description": "CPU usage, memory, upload speed, download speed",
+        "Description[zh_CN]": "CPU，内存，上传速度，下载速度",
+        "Icon": "CMUD",
+        "Id": "org.hty.CMUD",
         "License": "GPL-2.0+",
-        "Name": "CMDU",
+        "Name": "CMUD",
         "ServiceTypes": [
             "Plasma/Applet"
         ],

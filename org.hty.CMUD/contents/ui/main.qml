@@ -15,7 +15,7 @@ Item {
     property var tdt: 0
     
     Plasmoid.toolTipMainText: 'Uptime: ' + uptime
-	Plasmoid.toolTipSubText: 'CPU: ' + cpu + '%\nMem: ' + mem(mema, memt) + '\nDown: ' + kb(rdt) + '  ' + kb(rd) + '/s\nUp: ' + kb(tdt) + '  ' + kb(td) + '/s'
+	Plasmoid.toolTipSubText: 'CPU: ' + cpu + '%\nMem: ' + mem(mema, memt) + '\nUp: ' + kb(tdt) + '  ' + kb(td) + '/s\nDown: ' + kb(rdt) + '  ' + kb(rd) + '/s'
 
 	Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation
     Plasmoid.compactRepresentation: CompactRepresentation { }

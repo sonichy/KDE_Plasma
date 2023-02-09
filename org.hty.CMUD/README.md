@@ -1,6 +1,9 @@
 # CMDU for KDE Plasma
 ![alt](preview.jpg)
 
+## Icon
+Copy CMUD.png to ~/.local/share/icons/
+
 ## Reference 
 https://develop.kde.org/docs/extend/plasma/widget/  
 https://store.kde.org/p/998895 (https://github.com/dfaust/plasma-applet-netspeed-widget)  
