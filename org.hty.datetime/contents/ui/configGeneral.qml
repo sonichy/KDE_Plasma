@@ -34,6 +34,7 @@ Kirigami.FormLayout {
         id: toolTipSub
         Layout.fillWidth: true
         Kirigami.FormData.label: i18n("ToolTipSub:")
+        Kirigami.FormData.labelAlignment: Qt.AlignTop
         text: plasmoid.configuration.toolTipSub
     }
 

@@ -21,7 +21,7 @@ Item {
 
 	ColumnLayout {
 		spacing: -6
-		
+
 		Text {
 			id: time
 			width: parent.width
@@ -58,7 +58,7 @@ Item {
     MouseArea {
         anchors.fill: parent
         onClicked: {
-        	plasmoid.expanded = !plasmoid.expanded        	
+        	plasmoid.expanded = !plasmoid.expanded
         }
     }
     
