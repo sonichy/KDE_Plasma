@@ -7,12 +7,12 @@ Item {
 	
 	property var margin: 3
 	property var fontSize: 15
-	property var fontFamily: 'serif'
+	property var fontFamily: 'Noto Mono'
 
 	TextMetrics {
         id: textMetrics
         font {
-            //family: fontFamily
+            family: fontFamily
             pixelSize: fontSize
         }
         text: '↑ 2.39 MB/s'
@@ -21,7 +21,7 @@ Item {
 	TextMetrics {
         id: textMetrics1
         font {
-            //family: fontFamily
+            family: fontFamily
             pixelSize: fontSize
         }
         text: '2.39 MB/s'
@@ -36,28 +36,40 @@ Item {
 		Text {
 			text: '↑ '
 		    color: theme.textColor
-		    font.pixelSize: fontSize
+		    font {
+            	family: fontFamily
+            	pixelSize: fontSize
+        	}
 		}
 		
 		Text {
 			id: speedUp
 			width: textMetrics1.width
 		    color: theme.textColor
-		    font.pixelSize: fontSize
+		    font {
+            	family: fontFamily
+            	pixelSize: fontSize
+        	}
 		    horizontalAlignment: Text.AlignRight
 		}
 		
 		Text {
 			text: '↓ '
 		    color: theme.textColor
-		    font.pixelSize: fontSize
+		    font {
+            	family: fontFamily
+            	pixelSize: fontSize
+        	}
 		}
 		
 		Text {
 			id: speedDown
 			width: textMetrics1.width
 		    color: theme.textColor
-		    font.pixelSize: fontSize
+		    font {
+            	family: fontFamily
+            	pixelSize: fontSize
+        	}
 		    horizontalAlignment: Text.AlignRight
 		}
     }   
