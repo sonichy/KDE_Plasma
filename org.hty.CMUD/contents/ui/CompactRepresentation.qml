@@ -15,7 +15,7 @@ Item {
             family: fontFamily
             pixelSize: fontSize
         }
-        text: '↑ 2.39 MB/s'
+        text: '↑2.39MB/s'
 	}
 
 	TextMetrics {
@@ -24,17 +24,18 @@ Item {
             family: fontFamily
             pixelSize: fontSize
         }
-        text: '2.39 MB/s'
+        text: '2.39MB/s'
 	}
 	
 	Grid {
 		anchors.left: parent.left
-		anchors.leftMargin: margin
-
+		anchors.leftMargin: margin		
+		
 		columns: 2
+		//verticalItemAlignment: Grid.AlignVCenter //无效
 		
 		Text {
-			text: '↑ '
+			text: '↑'
 		    color: theme.textColor
 		    font {
             	family: fontFamily
@@ -54,7 +55,7 @@ Item {
 		}
 		
 		Text {
-			text: '↓ '
+			text: '↓'
 		    color: theme.textColor
 		    font {
             	family: fontFamily
@@ -95,8 +96,8 @@ Item {
 			else
 				ctx.strokeStyle = "red"
 			ctx.beginPath()
-			ctx.moveTo(canvas.width - 2, canvas.height)
-            ctx.lineTo(canvas.width - 2, canvas.height * (100 - cpu) / 100)
+			ctx.moveTo(canvas.width - 1, canvas.height)
+            ctx.lineTo(canvas.width - 1, canvas.height * (100 - cpu) / 100)
             ctx.stroke()
 		}
 	}

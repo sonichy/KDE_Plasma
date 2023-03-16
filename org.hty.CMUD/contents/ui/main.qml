@@ -99,7 +99,7 @@ Item {
     			k = k.toFixed(1);
     		else
     			k = k.toFixed(2);    		
-    		s = k + ' GB'
+    		s = k + 'GB'
     	} else if (k > 999) {
     		k = k / 1024;
     		if (k > 100)
@@ -108,9 +108,9 @@ Item {
     			k = k.toFixed(1);
     		else
     			k = k.toFixed(2);    		
-    		s = k + ' MB'
+    		s = k + 'MB'
     	} else {
-    		s = k + ' KB'
+    		s = k + 'KB'
     	}
     	return s
     }
